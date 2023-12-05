@@ -26,3 +26,5 @@ Under the following terms:
 - **No additional restrictions**: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 By contributing to this project, you agree that your contributions will be licensed under the same license.
+
+RosafessorBOT © 2023 by pialo34 is licensed under Attribution 4.0 International. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
