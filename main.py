@@ -7,6 +7,7 @@ import json
 from commands import Commands  # Import the Commands cog here
 from files.junk import print_status_messages, ignore_message
 from files.utils import get_prefix
+from keep_alive import keep_alive
 
 load_dotenv() # Load Discord Bot key
 
@@ -51,4 +52,5 @@ async def close():
     await super(type(bot), bot).close()
     print(ignore_message)
 
+keep_alive()
 bot.run(TOKEN)  # add this line at the end
