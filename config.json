@@ -1,0 +1,36 @@
+{
+  "_title": "# ATTENTION #",
+  "_info_1": "This is purely an example to help you have a simple settings file, the code can",
+  "_info_2": "be changed at any time. There are commands missing, but it won't matter because",
+  "_info_3": "this is just a foundation to help you out in setting up the config file. You can",
+  "_info_4": "add or remove whatever you like, including adding new features. It's 100% customizable.",
+
+    "pref": {
+        "default_prefix": "#",
+        "timeout": 20.0,
+        "timeout_msg": "You didn't reply in time, please try again.",
+        "set_prefix_msg": "Please provide a new prefix. Type 'cancel' to stop the operation.",
+        "cancel_msg": "Prefix change cancelled.",
+        "cancel_parameter": "cancel"
+    },
+    "clear": {
+        "send_confirmation": 5.0,
+        "message_limit": 100,
+        "limit_text": "The limit is 100 messages per clear."
+    },
+    "regions": {
+        "title": "Regions",
+        "description" : "List of available regions for Rosafessor bot."
+    },
+      "stats": {
+        "title": "User statistics",
+        "description_part_1" : "Welcome to **Rosafessor** bot! This bot provides detailed statistics for summoners."
+    },
+        "help": {
+        "title": "Help",
+        "description" : "List of commands for the Rosafessor bot."
+    },
+        "mmr": {
+        "description" : "Please note that while we strive for accuracy, this estimate is not be 100% precise. We continually update the Rosafessor bot to enhance its algorithm. As an open-source project, we welcome contributions. If you can improve this command, please reach out to me on Discord."
+    }
+}
