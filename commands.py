@@ -370,8 +370,10 @@ class Commands(commands.Cog):
 
         await ctx.send(file=file, embed=embed)
 
-    @commands.command() # This command is reserved to the bot's owner so it won't appear in help list
+    @commands.command()  # This command is reserved to the bot's owner so it won't appear in help list
     @commands.is_owner()
     async def shutdown(self, ctx):
-        await ctx.bot.logout()
+        await ctx.send("Bot is shutting down...")
+        await self.bot.close()
+
 
