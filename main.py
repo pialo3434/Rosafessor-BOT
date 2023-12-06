@@ -16,7 +16,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')  # BOT token
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = commands.Bot(command_prefix=get_prefix, intents=intents, help_command=None)
+bot = commands.Bot(command_prefix=get_prefix, intents=intents, help_command=None, owner_id=199624889743704066)
 
 # Load the prefixes when the bot is initialized
 try:

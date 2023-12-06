@@ -329,10 +329,10 @@ class Commands(commands.Cog):
                 break
 
         if tier and division:
-            #await ctx.send(f"{summoner_name}'s estimated MMR is {mmr}, which corresponds to {tier} {division}.")
+            # await ctx.send(f"{summoner_name}'s estimated MMR is {mmr}, which corresponds to {tier} {division}.")
             print("")
         else:
-            #await ctx.send(f"{summoner_name}'s estimated MMR is {mmr}.")
+            # await ctx.send(f"{summoner_name}'s estimated MMR is {mmr}.")
             print("")
 
         # Fetch the summoner's data
@@ -369,3 +369,9 @@ class Commands(commands.Cog):
         embed.set_image(url="attachment://rank_icon.png")
 
         await ctx.send(file=file, embed=embed)
+
+    @commands.command() # This command is reserved to the bot's owner so it won't appear in help list
+    @commands.is_owner()
+    async def shutdown(self, ctx):
+        await ctx.bot.logout()
+
