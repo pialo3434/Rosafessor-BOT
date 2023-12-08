@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RosafessorBOT.iml" filepath="$PROJECT_DIR$/.idea/RosafessorBOT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RosafessorBOT_OpenSource.iml" filepath="$PROJECT_DIR$/.idea/RosafessorBOT_OpenSource.iml" />
     </modules>
   </component>
 </project>

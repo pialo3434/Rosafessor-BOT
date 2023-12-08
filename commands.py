@@ -49,6 +49,8 @@ class Commands(commands.Cog):
             new_prefix = msg.content
             if new_prefix.lower() == cancel_parameter:
                 await ctx.send(cancel_msg)
+            elif len(new_prefix) != 1 or ' ' in new_prefix:
+                await ctx.send("Invalid prefix. Prefix must be a single character and cannot contain any spaces.")
             else:
                 guild_id = str(ctx.guild.id)  # Convert the guild ID to string
                 self.bot.prefixes[guild_id] = new_prefix  # Update the prefix in memory
